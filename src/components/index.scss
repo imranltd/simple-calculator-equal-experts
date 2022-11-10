@@ -1,0 +1,49 @@
+.button {
+  background-color: #666;
+  font-size: 2.4rem;
+  color: white;
+
+  width: 4rem;
+  height: 4rem;
+}
+
+.operator {
+  background-color: orange;
+}
+
+.evaluate {
+  background-color: green;
+  width: 8rem
+}
+
+.clear {
+  background-color: red;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+
+}
+
+.style-zero {
+  width: 8rem
+}
+
+.style-equals {
+  width: 12rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+}
+
+.style-7 {
+  border-top-left-radius: 0.5rem;
+}
+
+.style-9 {
+  border-top-right-radius: 0.5rem;
+}
+
+
+.style-plus {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
