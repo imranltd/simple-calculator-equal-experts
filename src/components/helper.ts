@@ -4,9 +4,9 @@ export const symbolParse = (s: string) => {
   return s;
 };
 //eslint-disable-next-line
-export const evaluateSum = (rtValue: string[]) => (Function(
-  'return ' + rtValue.map((v) => symbolParse(v)).join('')
-));
+// export const evaluateSum = (rtValue: string[]) => (Function(
+//   'return ' + rtValue.map((v) => symbolParse(v)).join('')
+// ));
 
 
 export const applyClassName = (string: string | number) => {

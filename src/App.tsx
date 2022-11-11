@@ -36,7 +36,9 @@ function App() {
     <div className='App'>
       <div className='container'>
         <div className='header'>Equal Experts Calculator</div>
-        <div className='display'>{currentAnswer || rtValue.join('')}</div>
+        <div className='display' data-testid={'display'}>
+          {currentAnswer || rtValue.join('')}
+        </div>
         <div className='controls'>
           <div className='digits'>
             {DIGITS.map((button: number | string) => {
