@@ -4,7 +4,7 @@
 
 ![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ =500x)
 
-![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ)
+![calcualator screenshot](calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ)
 
 [click on this link](#pre-requisites)
 
