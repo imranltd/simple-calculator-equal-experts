@@ -6,7 +6,8 @@
 
 ![calcualator screenshot](calculator.png | width=500)
 
-<img src="calculator.png" width="500px">
+
+<img src="calculator.png" width="400px">
 
 [click on this link](#pre-requisites)
 
