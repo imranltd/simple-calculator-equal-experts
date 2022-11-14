@@ -1,4 +1,4 @@
-import { MouseEventHandler } from 'react';
+import { MouseEventHandler, ReactElement } from 'react';
 
 import './index.scss';
 
@@ -8,7 +8,11 @@ interface IButton {
   cssClass?: string;
 }
 
-export const Button = ({ value, onClickFn, cssClass }: IButton) => (
+export const Button = ({
+  value,
+  onClickFn,
+  cssClass,
+}: IButton): ReactElement => (
   <button
     className={`button${cssClass ? ` ${cssClass}` : ''}`}
     onClick={onClickFn}
@@ -17,3 +21,11 @@ export const Button = ({ value, onClickFn, cssClass }: IButton) => (
     {value}
   </button>
 );
+
+export const DisplayScreen = ({ value }: { value: string }): ReactElement => {
+  return (
+    <div className={'display'} data-testid={'display'}>
+      {value}
+    </div>
+  );
+};

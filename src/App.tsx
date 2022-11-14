@@ -1,8 +1,10 @@
 import { useState, MouseEvent } from 'react';
-import { Button } from './components';
+import { Button, DisplayScreen } from './components';
 
 import { symbolParse, applyClassName } from './components/helper';
 import { DIGITS, OPERATORS } from './constants';
+
+import Logo from './components/Logo';
 
 import './App.scss';
 
@@ -10,7 +12,7 @@ function App() {
   const [currentAnswer, setCurrentAnswer] = useState('');
   const [rtValue, setRtValue] = useState<Array<string>>([]);
 
-  const clearHandler = () => {
+  const clearDisplay = () => {
     setCurrentAnswer('');
     setRtValue([]);
   };
@@ -35,10 +37,9 @@ function App() {
   return (
     <div className='App'>
       <div className='container'>
-        <div className='header'>Equal Experts Calculator</div>
-        <div className='display' data-testid={'display'}>
-          {currentAnswer || rtValue.join('')}
-        </div>
+        <Logo />
+        <DisplayScreen value={currentAnswer || rtValue.join('')} />
+
         <div className='controls'>
           <div className='digits'>
             {DIGITS.map((button: number | string) => {
@@ -58,7 +59,7 @@ function App() {
 
           <div className='opp'>
             {OPERATORS.map((btn) => {
-              const fn = btn === 'AC' ? clearHandler : clickHandler;
+              const fn = btn === 'AC' ? clearDisplay : clickHandler;
               const cssClass = btn === 'AC' ? 'clear' : 'operator';
               return (
                 <Button

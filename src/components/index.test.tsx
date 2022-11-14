@@ -1,6 +1,5 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Button } from './index';
+import { Button, DisplayScreen } from './index';
 
 test('renders Button', () => {
   render(<Button value='test' onClickFn={() => {}} cssClass='noClass' />);
@@ -14,4 +13,11 @@ test('renders button no className', () => {
 
   const ButtonElement = screen.getByText(/test/i);
   expect(ButtonElement).toBeInTheDocument();
+});
+
+test('renders DisplayScreen', () => {
+  render(<DisplayScreen value='test' />);
+
+  const DisplayScreenElement = screen.getByText('test');
+  expect(DisplayScreenElement).toBeInTheDocument();
 });

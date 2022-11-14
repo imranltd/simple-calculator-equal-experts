@@ -1,15 +1,16 @@
-import React from 'react';
 import { render, screen, fireEvent, within } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders application with Logo', () => {
   render(<App />);
-  const HeaderElement = screen.getByText(/Equal Experts Calculator/i);
-  expect(HeaderElement).toBeInTheDocument();
+
+  const LogoElement = screen.getByTestId('logo');
+  expect(LogoElement).toBeInTheDocument();
 });
 
-test('calcualte simple sum "786+786"', () => {
+test('calcualte simple sum "786+786" digit in the document', () => {
   render(<App />);
+
   const DisplayElement = screen.getByTestId('display');
   expect(DisplayElement).toHaveTextContent('');
 

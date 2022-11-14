@@ -1,49 +1,69 @@
 .button {
   background-color: #666;
-  font-size: 2.4rem;
   color: white;
-
-  width: 4rem;
+  font-size: 2.4rem;
   height: 4rem;
+  width: 4rem;
+
+  &:hover {
+    background-color: #ccc;
+  }
+
+  &.operator {
+    background-color: orange;
+  }
+
+  &.evaluate {
+    background-color: green;
+    width: 8rem
+  }
+
+  &.clear {
+    background-color: red;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-size: 1.4rem;
+
+    &:active {
+      background-color: lime;
+    }
+
 }
 
-.operator {
-  background-color: orange;
-}
-
-.evaluate {
-  background-color: green;
+&.style-zero {
   width: 8rem
 }
 
-.clear {
-  background-color: red;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  &.style-equals {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    width: 12rem;
 
-}
+  }
 
-.style-zero {
-  width: 8rem
-}
+  &.style-7 {
+    border-top-left-radius: 0.5rem;
+  }
 
-.style-equals {
-  width: 12rem;
-  border-bottom-left-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
-
-}
-
-.style-7 {
-  border-top-left-radius: 0.5rem;
-}
-
-.style-9 {
-  border-top-right-radius: 0.5rem;
-}
+  &.style-9 {
+    border-top-right-radius: 0.5rem;
+  }
 
 
-.style-plus {
-  border-bottom-right-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  &.style-plus {
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  }
+
+  .display {
+    background-color: white;
+    color: black;
+    font-family: Orbitron;
+    font-size: 2.4rem;
+    height: calc(3rem);
+    overflow: hidden;
+    text-align: right;
+
 }

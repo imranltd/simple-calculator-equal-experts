@@ -3,11 +3,6 @@ export const symbolParse = (s: string) => {
   if (s === 'x') return '*';
   return s;
 };
-//eslint-disable-next-line
-// export const evaluateSum = (rtValue: string[]) => (Function(
-//   'return ' + rtValue.map((v) => symbolParse(v)).join('')
-// ));
-
 
 export const applyClassName = (string: string | number) => {
   switch (string) {
