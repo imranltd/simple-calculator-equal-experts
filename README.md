@@ -15,7 +15,7 @@
  -- [Running tests](#running-tests)
 ## Pre-requisites
 **Node version:** 18.10+ \
-**Basic knowledge:** Javascript, npm, yarn, Terminal/command line commands, git commands
+**Basic knowledge:** Javascript, npm, yarn, Terminal/command line commands, git commands, VSCode
 
 ## How to run the code
 ### Installing
