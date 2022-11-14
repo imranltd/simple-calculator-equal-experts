@@ -1,6 +1,6 @@
 # Getting Started with Simple Calculator
 
- Simple Calculator for Equal Experts.  This application was created using Create React App with TypeScript and SASS
+ Simple Calculator for Equal Experts.  This application was created using Create React App with TypeScript and SASS. By **Imran Sarwar**
 
 <img src="calculator.png" width="400px">
 
@@ -11,8 +11,6 @@
  -- [Building for deployment](#building-for-deployment)
  3. [Test coverage](#test-coverage) \
  -- [Running tests](#running-tests)
-
-
 ## Pre-requisites
 **Node version:** 18.10+ \
 **Basic knowledge:** Javascript, npm, yarn, Terminal/command line commands, git commands
