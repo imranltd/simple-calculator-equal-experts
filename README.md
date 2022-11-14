@@ -2,14 +2,7 @@
 
  Simple Calculator for Equal Experts.  This application was created using Create React App with TypeScript and SASS
 
-![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ =500x)
-
-![calcualator screenshot](calculator.png | width=500)
-
-
 <img src="calculator.png" width="400px">
-
-[click on this link](#pre-requisites)
 
  1. [Pre-requisites](#pre-requisites)
  2. [How to run the code](#how-to-run-the-code) \
@@ -52,7 +45,7 @@ See the section about [deployment (https://facebook.github.io/create-react-app/d
 
 ## Test coverage
 This project currently has **100% test coverage**
-![test coverage](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/testcoverage.png?token=GHSAT0AAAAAAB27JLXMGF2BDVM3UR7WG6R6Y3SC3CQ =500x)
+<img src="testcoverage.png" width="500px">
 ### Running tests
 To run unit tests run the following command:
 `npm run test` or if you use Yarn `yarn test`
