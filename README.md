@@ -4,7 +4,9 @@
 
 ![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ =500x)
 
-![calcualator screenshot](calculator.png)
+![calcualator screenshot](calculator.png | width=500)
+
+<img src="calculator.png" width="500">
 
 [click on this link](#pre-requisites)
 
