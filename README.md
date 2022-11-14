@@ -3,6 +3,7 @@
  Simple Calculator for Equal Experts.  This application was created using Create React App with TypeScript and SASS. By **Imran Sarwar**
 
 **Version:** 5b8d0fd276b6d288905ed2f63a934e057e8feca2
+
 <img src="calculator.png" width="400px">
 
  1. [Pre-requisites](#pre-requisites)
