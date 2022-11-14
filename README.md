@@ -7,10 +7,10 @@
 [click on this link](#pre-requisites)
 
  1. [Pre-requisites](#pre-requisites)
- 2. [How to run the code](#how-to-run-the-code)
- -- [Installing](#installing)
- -- [Running locally](#running-locally)
- -- [Building for deployment](#building-for-deployment)
+ 2. [How to run the code](#how-to-run-the-code) \
+ -- [Installing](#installing) \
+ -- [Running locally](#running-locally) \
+ -- [Building for deployment](#building-for-deployment) \
  3. [Test coverage](#test-coverage)
  -- [Running tests](#running-tests)
 
