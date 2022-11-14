@@ -1,8 +1,10 @@
 # Getting Started with Simple Calculator
 
  Simple Calculator for Equal Experts.  This application was created using Create React App with TypeScript and SASS
- ![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ =500x)
 
+![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png?token=GHSAT0AAAAAAB27JLXNQ7HHYC6JK6PX7VXQY3SCWAQ =500x)
+
+![calcualator screenshot](https://raw.githubusercontent.com/imranltd/simple-calculater-equal-experts/master/calculator.png)
 
 [click on this link](#pre-requisites)
 
@@ -10,23 +12,23 @@
  2. [How to run the code](#how-to-run-the-code) \
  -- [Installing](#installing) \
  -- [Running locally](#running-locally) \
- -- [Building for deployment](#building-for-deployment) \
- 3. [Test coverage](#test-coverage)
+ -- [Building for deployment](#building-for-deployment)
+ 3. [Test coverage](#test-coverage) \
  -- [Running tests](#running-tests)
 
 
 ## Pre-requisites
-**Node version:** 18.10+
+**Node version:** 18.10+ \
 **Basic knowledge:** Javascript, npm, yarn, Terminal/command line commands, git commands
 
 ## How to run the code
 ### Installing
 1. Clone this repository
 2. Navigate into the root folder (simple-calculator-equal-experts) in your terminal
-3. Run the following command:
+3. Run the following command: \
 -- `npm i` or if you use Yarn `yarn`
 ### Running locally
-Once the project dependencies have been installed, run the following command to run the application locally (in development mode):
+Once the project dependencies have been installed, run the following command to run the application locally (in development mode): \
 `npm run start` or if you use yarn `yarn start`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.  The page will reload if you make edits.  You will also see any lint errors in the console.
